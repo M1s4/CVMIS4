@@ -3531,7 +3531,7 @@ img.WPimg {
 }
 
 .icon_whathsapp {
-  left: 65.5%;
+ left: 58.5%;
   top: 88.9%;
 }
 
@@ -3542,12 +3542,23 @@ img.WPimg {
 }
 
 .content-habilidades {
-   padding-top:0px;   
+  padding-top: 0px;
+  overflow: auto;
+  margin: 0px 40px;
 }
 
 .div-content-habilidades.w-tab-pane.w--tab-active {
   padding: 24px 0px;
 }
+
+.div-content-info.tab-off {
+ 
+  max-height: 550px !important;
+  overflow: auto;
+}
+
+
+
 
 
 }
