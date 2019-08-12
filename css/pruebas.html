@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+<body>
+
+  
+        <form action="https://wa.me/0443221738118?text=" id="formulario" target="_blank" class="frm-ventas" method="post">
+           <textarea name="" id="texto" cols="30" rows="10" value="sdfsfsdfsdf"></textarea>
+           <button id="send"  onclick="myFunction()">enviar</button>           
+              </form>
+             
+
+              <script>
+        
+                  function myFunction() {                  
+                    var text = document.getElementById('formulario').action;
+                    text.innerHTML = document.getElementById('texto').value;  
+                    console.log(text); 
+                  } 
+            </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</body>
+</html>
+
